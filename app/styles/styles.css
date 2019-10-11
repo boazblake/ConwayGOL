@@ -1,0 +1,44 @@
+/* @import 'animations.css' */
+
+* {
+  font-family: Montserrat, Sans-Serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.toolbar {
+  border: 1px solid rgba(45, 52, 54, 1);
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.board {
+  display: flex;
+  flex-flow: wrap;
+  width: 800px;
+  background: rgba(45, 52, 54, 1);
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(223, 230, 233, 1);
+  cursor: pointer;
+}
+
+.alive {
+  background: rgba(223, 230, 233, 1);
+}
+
+.dead {
+  background: rgba(45, 52, 54, 1);
+}
+
+@media (min-width: 700px) and (max-width: 990px) {
+}
+
+@media (min-width: 400px) and (max-width: 710px) {
+}
